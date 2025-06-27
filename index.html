@@ -23,7 +23,7 @@
             </div>
         </div>
         <div id="right-middle">
-            <form>
+            <form id="sign-up">
                 <h2>Let's do this!</h2>
                 <div>
                     <div>
@@ -48,17 +48,17 @@
                 <div>
                     <div>
                         <label for="password">Password</label>
-                        <input type="password" name="password">
+                        <input type="password" name="password" minlength="8">
                     </div>
                     <div>
                         <label for="confirm">Confirm Password</label>
-                        <input type="password" name="confirm">
+                        <input type="password" name="confirm" minlength="8">
                     </div>
                 </div>
             </form>
         </div>
         <div id="right-bottom">
-            <button>Create Account</button>
+            <button type="submit" form="sign-up">Create Account</button>
             <h3>Already have an account? <a id="log-in">Log in</a></h3>
         </div>
     </div>

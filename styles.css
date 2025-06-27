@@ -118,12 +118,12 @@ label {
 
 input {
     border-radius: 5px;
-    border: 1px grey solid;
+    border: 2px #E5E7EB solid;
     padding: 3px;
 }
 
 button {
-    padding: 15px 40px;
+    padding: 12px 40px;
     border-radius: 10px;
     border: none;
     color: white;
